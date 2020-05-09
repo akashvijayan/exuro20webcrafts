@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/shops.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="public/js/menu.js"></script>
+    <title>eShoppy</title>
+  </head>
+  <body>
+    <div id="top">
+      <div class="top left">
+        <a href="index.html"><img width=15% src="public/images/bag.jpg"/>
+        eShoppy</a>
+      </div>
+      <div class="top middle show">
+        <div id="search">
+            <input type="text" name="search" placeholder="search products"/>
+            <img src="public/images/search.jpg"/>
+        </div>
+      </div>
+      <div class="top right">
+        <img id="menuicon" class="hide hideimg" src="public/images/menu.svg"/>
+        <img id="menuicon2" style="display:none;" src="public/images/close.svg"/>
+        <a class="show" href="cart.html"><img src="public/images/cart.svg"/></a>
+        <a class="show" href="#"><img src="public/images/fav.svg"/></a>
+        <a class="show" href="#"><img src="public/images/profile.svg"/></a>
+      </div>
+    </div>
+    <div id="main">
+      <div class="main mleft show">
+        <a href="index.html"><div id="home">HOME
+          <img src="public/images/next.jpg"/>
+        </div></a>
+        <a href="products.html"><div id="pro">PRODUCTS
+            <img src="public/images/next.jpg"/>
+        </div></a>
+        <a href="shops.html"><div id="pro">SHOPS NEAR ME
+            <img src="public/images/next.jpg"/>
+        </div></a>
+        <div id="foot">
+          <br><br><br>
+            <p>copyright 2020</p>
+        </div>
+      </div>
+      <div id="menu" style="display:none;">
+        <a href="index.html"><div id="options">HOME</div></a>
+        <a href="products.html"><div id="options">PRODUCTS</div></a>
+        <a href="shops.html"><div id="options">SHOPS NEAR ME</div></a>
+        <a href="cart.html"><div id="options">CART</div></a>
+        <div id="options">PROFILE</div>
+      </div>
+      <div class="main mright">
+        <div id="nearme">SHOPS NEAR ME</div>
+        <div class="shops sleft">
+          <div id="shopimg"><img src="public/images/shop1.jpg"/></div>
+          <div id="details">
+            <div class="details shopname">ABC Grocery</div>
+            <div class="details products">Products Available:</div>
+            <div class="details prodname">- vegetables</div>
+            <div class="details prodname">- fruits</div>
+            <div class="details prodname">- grains</div>
+            <div class="details prodname">- Dairy Products</div>
+          </div>
+        </div>
+        <a href="#"><div class="shops sright">
+            Browse Store
+        </div></a>
+        <div id="nearme" style="margin-top:-2%;"></div>
+        <div class="shops sleft">
+          <div id="shopimg"><img src="public/images/medical.jpg"/></div>
+          <div id="details">
+            <div class="details shopname">ABC Medicals</div>
+            <div class="details products">Products Available:</div>
+            <div class="details prodname">- Masks</div>
+            <div class="details prodname">- Sanitizers</div>
+            <div class="details prodname">- Pharmaceuticals</div>
+            <div class="details prodname">- Surgicals</div>
+          </div>
+        </div>
+        <a href="#"><div class="shops sright">
+            Browse Store
+        </div></a>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<link href="css/my_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="css/jquery.dualSlider.0.2.css" />
+<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.timers-1.2.js" type="text/javascript"></script>
+<script src="js/jquery.dualSlider.0.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    
+  $(document).ready(function() {
+      
+      $(".carousel").dualSlider({
+          auto:true,
+          autoDelay: 6000,
+          easingCarousel: "swing",
+          easingDetails: "easeOutBack",
+          durationCarousel: 1000,
+          durationDetails: 600
+      });
+      
+  });
+  
+</script>
+
+<body>
+</head>
+ <header>
+    <div class="nav-container">
+         <nav class="nav-checkbox">
+           <a href="#" class="logo">Logo</a>
+           <input id="tab-nav" type="checkbox" class="tab-nav">
+           <label for="tab-nav" class="tab-nav-label">Menu</label>
+             <ul class="tab-content">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shops and Availability</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+             </ul>
+        </nav>    
+    </div>
+    <div id="menu_second_bar">
+      <div id="templatemo_search">
+            <form action="#" method="get">
+              <input type="text" value="Search Item Or Nearby Shop" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field">
+              <input type="submit" name="Search Item Or Shop" value=" Search " alt="Search Item Or Shop" id="searchbutton" title="Search" class="sub_btn">
+            </form>
+        </div>
+        <div class="cleaner"></div>
+  </div>
+
+
+ </header>
+ <main>
+  <div id="templatemo_middle" class="carousel">
+    <div class="panel">
+      
+      <div class="details_wrapper">
+        
+        <div class="details">
+        
+          <div class="detail">
+            <h2><a href="#">Stationaries</a></h2>
+            <p>Order Stationaries and We'll Deliver it to you! </p>
+            <a href="#" title="Shows Stationaries in Area" class="more">BUY</a>
+          </div><!-- /detail -->
+          
+          <div class="detail">
+            <h2><a href="#">Groceries</a></h2>
+           <p >Your Groceries at Your Doorstep!</p>
+            <a href="#" title="Shows Marts in Area" class="more">SHOP</a>
+          </div><!-- /detail -->
+          
+          <div class="detail">
+            <h2><a href="#">Medicals</a></h2>
+            <p>Medicines? We'll Deliver them to you!</p>
+            <a href="#" title="Shows Medicals in Area" class="more">BUY</a>
+          </div><!-- /detail -->
+          
+        </div><!-- /details -->
+        
+      </div><!-- /details_wrapper -->
+      
+      <div class="paging">
+        <div id="numbers"></div>
+        <a href="javascript:void(0);" class="previous" title="Previous" >Previous</a>
+        <a href="javascript:void(0);" class="next" title="Next">Next</a>
+      </div><!-- /paging -->
+      
+      <a href="javascript:void(0);" class="play" title="Turn on autoplay">Play</a>
+      <a href="javascript:void(0);" class="pause" title="Turn off autoplay">Pause</a>
+      
+    </div><!-- /panel -->
+
+    <div class="backgrounds">
+      
+      <div class="item item_1">
+        <img src="images/slider/02.jpg" alt="Slider 01" />
+      </div><!-- /item -->
+      
+      <div class="item item_2">
+        <img src="images/slider/03.jpg" alt="Slider 02" />
+      </div><!-- /item -->
+      
+      <div class="item item_3">
+        <img src="images/slider/_01.jpg" alt="Slider 03" />
+      </div><!-- /item -->
+      
+    </div><!-- /backgrounds -->
+  </div> <!-- END of template_middle -->
+  <div id="templatemo_main">
+    <div id="sidebar" class="float_l">
+       <div class="sidebar_box"><span class="bottom"></span>
+           <h3>Shops Available in Area</h3>   
+             <div class="content"> 
+               <ul class="sidebar_list"></ul>
+
+               <!--SHOP Names Can Be Infiltered From Database-->
+
+                   <li class="first"><a href="#">SHOP Name </a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li><a href="#">SHOP Name</a></li>
+                     <li class="last"><a href="#">Shop Name</a></li>
+                </ul>
+              </div>
+         </div>
+    </div>
+         <div id="content" class="float_r">
+          <h1>Quick Buy</h1> 
+
+          <!--Redirect Pages in Quick Buy: 1. Cart Page And 2. Detail Page-->
+          <!--On Quick Buy Of Any Product, Redirecting To Checkout Or More Detail-->
+
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 01" /></a>
+                <h3>Item Name::Shop Name</h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 02" /></a>
+                <h3>Item Name:Shop Name/h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 03" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 04" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 05" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 06" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs. XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 07" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs.XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 08" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs.XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>        	
+            <div class="product_box no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/item.jpg" alt="Image 09" /></a>
+                <h3>Item Name:Shop Name</h3>
+                <p class="product_price">Rs.XX</p>
+                <a href="shoppingcart.html" class="add_to_card">Add to Cart</a>
+                <a href="productdetail.html" class="detail">Detail</a>
+            </div>  
+        </div> 
+        <div class="cleaner"></div>
+    </div> <!-- END of template_main -->
+
+    <div id="templatemo_footer">
+    	<p>
+			<a href="index.html">Home</a> | <a href="products.html">Shops And Availability</a> | <a href="about.html">About</a> | <a href="checkout.html">Checkout</a> | <a href="contact.html">Contact</a>
+		</p>
+
+    	Copyright © 2048 <a href="#">WEBCRAFTS</a>
+    </div> <!-- END of templatemo_footer -->
+    
+</div> <!-- END of templatemo_wrapper -->
+    
+ </main>
+ 
+</body>
+  
+
+
+
+
+
+
+</html>

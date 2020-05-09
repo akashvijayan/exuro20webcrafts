@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+.bg-text {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #505e48;
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 100%;
+padding: 20px;
+text-align: center
+}
+.bg-text1 {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #505e48;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 50%;
+padding: 10px;
+text-align: center
+}
+.bg-text2 {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #505e48;
+position: absolute;
+top: 130%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 100%;
+padding: 20px;
+text-align: center
+}
+.box{
+
+display: flex;
+flex-direction: row;
+position: absolute;
+top: 70%;
+}
+
+.flip-card {
+background-color: transparent;
+width: 300px;
+height: 300px;
+perspective: 1000px;
+}
+
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.flip-card-front {
+background-color: #bbb;
+color: black;
+}
+
+.flip-card-back {
+background-color: #2980b9;
+color: white;
+transform: rotateY(180deg);
+}
+a{
+color: black;
+}
+@media only screen and (max-width: 768px) {
+.box{
+flex-direction: column;
+top: 80%;
+left: 2%;
+right: 5%;
+}
+.bg-text {
+top: 15%;
+}
+.bg-text1 {
+top: 50%;
+}
+.bg-text2 {
+top: 360%;
+}
+
+}

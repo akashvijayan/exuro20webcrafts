@@ -1,0 +1,110 @@
+.shops{
+  float:left;
+  margin-top:2%;
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+.sleft{
+  width:50%;
+}
+.sright{
+  float:right;
+  width:13%;
+  background-color: white;
+  margin-top: 20%;
+  font-size: 1.4vw;
+  text-align: right;
+  padding: 10px;
+  margin-right: 3%;
+  border-radius: 100px;
+  border:1px solid rgb(80,80,80,0.4);
+}
+#shoprimg{
+  width:40%;
+}
+#shopimg img{
+  width:14vw;
+  height:33vh;
+  float: left;
+  border:1px solid rgb(80,80,80,0.4);
+}
+#details{
+  padding:20px 0 20px 10px;
+  text-align: left;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.details{
+  font-size: 1.6vw;
+}
+.shopname{
+  font-weight: bold;
+  color:rgb(80,80,80);
+}
+.products{
+  font-weight: 300;
+  color:rgb(80,80,80);
+  margin: 3% 0 2% 0;
+}
+.prodname{
+  margin: 3% 0 3% 6%;
+}
+p{
+  margin-top: 0%;
+}
+#nearme{
+  color:rgb(80,80,80);
+  font-weight: bold;
+  text-align: left;
+  width: 95%;
+  float: left;
+  font-size: 1.6vw;
+  margin-top: 3%;
+  margin-left: 2%;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+@media only screen and (max-width:600px){
+  html,body{
+    width:98%;
+  }
+  #nearme{
+    font-size: 20px;
+    width:93%;
+  }
+  #shopimg img{
+    width:150px;
+    height:150px;
+    float: left;
+    border:1px solid rgb(80,80,80,0.4);
+  }
+  .sleft{
+    width:98%;
+  }
+  .shopname{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .products{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .prodname{
+    font-size:13px;
+    margin: 3% 0 3% 6%;
+  }
+  .sright{
+    float:left;
+    width:20%;
+    background-color: white;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: right;
+    padding: 10px;
+    margin-left: 35%;
+    border-radius: 100px;
+    border:1px solid rgb(80,80,80,0.4);
+  }
+}

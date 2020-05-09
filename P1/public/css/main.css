@@ -1,0 +1,138 @@
+html{
+  font-family: sans-serif;
+  background-color: white;
+}
+#top{
+  height: 30px;
+}
+a{
+  text-decoration: none;
+  color: rgb(80,80,80);
+}
+.top{
+  height:40px;
+  float:left;
+  color:rgb(80,80,80);
+  padding:3px 0 3px 3px;
+  border-bottom: 1px solid rgb(55,55,52);
+}
+.left{
+  width:21%;
+  font-weight: 100;
+  font-size: 2vw;
+}
+.left img{
+  float: left;
+}
+.middle{
+  width:49%;
+}
+.right{
+  width:28%;
+}
+.right img{
+  width:2.8vw;
+  float: right;
+  margin-left: 3%;
+}
+#search{
+  margin-left: 1%;
+  width:50%;
+  border:1px solid rgb(80,80,80);
+  border-radius: 20px;
+}
+#search img{
+  float: right;
+  margin-right: 3%;
+  margin-top: 1%;
+  width:1.5vw;
+}
+input[type="text"]{
+  width:16vw;
+  margin-left: 3%;
+  color: black;
+  padding: 4px;
+  font-size: 1.2vw;
+  background-color: white;
+  border: none;
+}
+::placeholder{
+  color:black;
+}
+#main{
+  height:auto;
+}
+.main{
+  width:100%;
+  float: left;
+}
+.mleft{
+  width:21%;
+}
+.mleft img{
+    width:1.7vw;
+    float: right;
+    margin-right: 2%;
+}
+#home{
+  font-size: 1.2vw;
+  margin-top: 20%;
+  color: rgb(55,55,52);
+}
+#pro{
+  font-size: 1.2vw;
+  color: rgb(55,55,52);
+  margin-top: 10%;
+}
+#foot{
+  font-size: 1.1vw;
+  color:rgba(80,80,80);
+  margin-top: 30%;
+  width: 95%;
+  text-align: center;
+  border-top: 2px solid rgb(80,80,80);
+}
+.mright{
+  border-left:1px solid rgb(55,55,52);
+  width:78%;
+  background-color: rgb(241,236,229);
+  text-align: center;
+}
+.hide{
+  display: none;
+}
+#menu{
+  margin-top: 5%;
+  padding:5px;
+}
+#options{
+  border-bottom: 1px solid rgb(80,80,80,0.4);
+  color: rgb(80,80,80);
+  margin-top: 5px;
+}
+@media only screen and (max-width:600px) {
+  .left{
+    width: 70%;
+    font-size: 22px;
+  }
+  .left img{
+    width: 40px;
+  }
+  #menuicon2,img.hide.hideimg{
+    width: 30px;
+  }
+  #menuicon2,img.hide.hideimg:hover{
+    cursor:pointer;
+  }
+  .hide{
+    display: block;
+  }
+  .show{
+    display: none;
+  }
+  .mright{
+    margin-top: 5%;
+    width: 100%;
+    border-left: none;
+  }
+}
